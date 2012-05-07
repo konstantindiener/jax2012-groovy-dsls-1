@@ -1,0 +1,5 @@
+Wenn Immobilie.selbgenutzt,
+	Dann:
+		Antragsteller.nettoEinkommen - Kreditrate,
+	Sonst:
+		Antragsteller.nettoEinkommen - Kreditrate + Immobilie.monatlicheMiete
