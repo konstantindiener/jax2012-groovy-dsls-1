@@ -22,7 +22,7 @@ class DslTestCase extends GroovyTestCase {
 	public void testDelta1() {
 		def result = runDsl("delta.formel", [
 			Immobilie: new ImmobilieObject(
-				selbgenutzt: true,
+				selbstgenutzt: true,
 				monatlicheMiete: 430.0),
 			Antragsteller: new AntragstellerObject(
 				nettoEinkommen: 1530.0),
@@ -35,7 +35,7 @@ class DslTestCase extends GroovyTestCase {
 	public void testDelta2() {
 		def result = runDsl("delta.formel", [
 			Immobilie: new ImmobilieObject(
-				selbgenutzt: false,
+				selbstgenutzt: false,
 				monatlicheMiete: 430.0),
 			Antragsteller: new AntragstellerObject(
 				nettoEinkommen: 1530.0),

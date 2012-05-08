@@ -2,7 +2,7 @@ package de.coinor.groovydsl
 
 class ImmobilieObject {
 
-	boolean selbgenutzt
+	boolean selbstgenutzt
 	
 	def monatlicheMiete
 }

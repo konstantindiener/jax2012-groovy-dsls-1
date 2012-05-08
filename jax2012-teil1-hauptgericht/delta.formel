@@ -1,4 +1,4 @@
-Wenn Immobilie.selbgenutzt,
+Wenn Immobilie.selbstgenutzt,
 	Dann:
 		Antragsteller.nettoEinkommen - Kreditrate,
 	Sonst:
